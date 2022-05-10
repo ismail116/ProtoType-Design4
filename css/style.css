@@ -1,0 +1,244 @@
+@import url(myfonts.css);
+
+body {
+
+    margin: auto;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* --- section 1 [ Header Section ] --- */
+
+header {
+    width: 100%;
+    height: 650px;
+    background: url(../img/slider.jpg) no-repeat center/cover fixed;
+
+    overflow: hidden;
+}
+
+.inner-header {
+    /* width: 70%; */
+    height: 60px;
+    margin: 3px 4px;
+    background: darkslategray;
+    border-bottom: 1.5px solid orange;
+
+    overflow: hidden;
+
+}
+
+
+/* ----- Logo  -----  */
+
+.logo {
+    width: 200px;
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+
+/* ----- Nav  -----  */
+
+
+nav {
+    height: 35px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+}
+
+nav ul li:hover{
+    color: #f90;
+}
+
+
+/* ---  panne Section  ---*/
+
+header .pane{
+    margin-top: 60px;
+}
+
+header .pane .toggle:nth-of-type(1) {
+    width: 30px;
+    height: 30px;
+    background: #0f2;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+header .pane .toggle:nth-of-type(2) {
+    width: 30px;
+    height: 30px;
+    background: darkcyan;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+header .pane .toggle:nth-of-type(3) {
+    width: 30px;
+    height: 30px;
+    background: #f20;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+header .pane .toggle:nth-of-type(4) {
+    width: 30px;
+    height: 30px;
+    background: cyan;
+    text-align: center;
+}
+
+header .pane .toggle:hover{
+    width: 150px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+/* #pannel {
+
+
+    opacity: 0;
+    position: absolute;
+    top: -500px;
+    background: #ff0;
+    padding: 50px;
+    box-sizing: border-box;
+    z-index: 0;
+
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+#pannel:target {
+
+    opacity: 100%;
+    top: 0px;
+
+} */
+
+
+
+/* --- section 2 [ boxs Section ] --- */
+
+.boxs {
+    width: 100%;
+    height: 300px;
+    background: lightgray;
+
+    /* display: flex; */
+}
+
+.inner-boxs {
+
+    width: 75%;
+    margin: auto;
+
+    height: 200px;
+    background: lightgray;
+
+    /* align-content: space-between; */
+
+}
+
+.box {
+    width: 30%;
+    height: 180px;
+
+    float: left;
+    background: lightyellow;
+
+    border: 1px hidden #000;
+    box-sizing: border-box;
+    margin: 50px 1.6%;
+    text-align: center;
+}
+
+.box h3 {
+    margin: auto;
+    padding-top: 10px;
+    height: 30px;
+    background: yellow;
+}
+
+
+/* --- section 3 [ content Section ] --- */
+
+section {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background: darkslategray;
+    overflow: hidden;
+}
+
+section .content-box {
+    width: 55%;
+    margin: 30px 80px;
+
+
+}
+
+
+figure {
+    
+    text-align: center;  
+}
+
+figure img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+figcaption {
+
+    text-align: center;
+    font-size: 16px;
+    font-family: cute;
+}
+
+/* --- section 4 [ Footer Section ] --- */
+
+footer {
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    background: gray;
+}
+
+footer marquee {
+    padding-top: 10px;
+}
